@@ -55,7 +55,8 @@ header h1{
 /* filter */
 .filterContainer{
   transition: 1s ease;
-  position: fixed;
+  position: absolute;
+  top: 0vw;
   width: 5vw;
   height: 2vw;
   border: 1px solid rgba(230,230,230);
@@ -141,6 +142,7 @@ header h1{
 
 
 .sectionThree{
+  padding-top: 2vw;
   position: relative;
 }
 .sectionThree h2{
