@@ -58,7 +58,7 @@ header h1{
   position: absolute;
   top: 0vw;
   width: 5vw;
-  height: 2vw;
+  max-height: 2vw;
   border: 1px solid rgba(230,230,230);
   z-index: 1;
   border-top-right-radius: 2vw;
@@ -70,7 +70,7 @@ header h1{
   padding-top: 0.5vw
 }
 .filterContainer:hover{
-  height: 15vw;
+  max-height: 30vw;
   width: 10vw;
   background: rgba(255,230,230);
 }
